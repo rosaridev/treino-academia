@@ -1,0 +1,117 @@
+style.css
+/* Define o fundo geral da página e fonte */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+/* Cabeçalho do "app" */
+header {
+    background-color: #4CAF50;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Espaçamento geral da página */
+.container {
+    padding: 20px;
+}
+
+/* Visual dos cards de treino */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+/* Efeito ao passar o mouse no card */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Título dos cards */
+.card h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Lista dos exercícios */
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.card li:last-child {
+    border-bottom: none;
+}
+
+/* Rodapé fixo */
+footer {
+    background-color: #488c62;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header1 {
+    background-color: #02aeed;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container1 {
+    padding: 20px;
+}
+.card1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+
+.card1:hover {
+    transform: translateY(-5px);
+}
+
+
+.card1 h2 {
+    color: #08638a;
+    margin-bottom: 10px;
+} 
+
+  
+.card1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card1 li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.card1 li:last-child {
+    border-bottom: none;
+}
